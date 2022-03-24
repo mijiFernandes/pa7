@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="ko" >
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>유니버스 – For Fans, With Artists : Global Fandom Platform UNIVERSE</title>
+  <meta name="naver-site-verification" content="ad8ba0f6eee9078644f0ce1aa3d6feb7d1a115b0">
+  <link rel="stylesheet" href="https://wstatic-cdn.universe-official.io/universe/v1/css/chunk-vendors.css?_=2108181600">
+  <link rel="stylesheet" href="https://wstatic-cdn.universe-official.io/universe/v1/css/app.css?_=2108181600">
+  <script src="https://wstatic-cdn.universe-official.io/common/js/lib/jquery-3.5.1.min.js"></script>
+  <script>
+    var _isStage = "false";
+    window._uikitShareMessage = {
+        ALERT_COPY_URL: "URL 복사가 완료되었습니다."
+      }
+  </script>
+  <!-- Nasmedia Track Tag (20201110)-->
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+  {'gtm.start': new Date().getTime(),event:'gtm.js'}
+  );var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NRJ82LH');</script>
+  <!-- End Google Tag Manager -->
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K7SBVTV');</script>
+<!-- End Google Tag Manager -->
+<style>
+  .icon{
+    font-size: 5em;
+    animation: motion 1s /* 속도 */
+               linear 0s   /* 처음부터 끝까지 일정 속도로 진행 */
+               infinite alternate; /* 무한 반복 */
+  }
+  @keyframes motion {
+	0% {margin-top: 0px;} /* 처음 위치 */
+	100% {margin-top: 15px;} /* 마지막 위치 */
+  }
+
+</style>
+<style>
+.blink1{
+    animation:blinkingText1 1.2s infinite;
+}
+@keyframes blinkingText1{
+    0%{     color: #FFFFFF;    }
+    20%{    color: #ebebeb; }
+    40%{    color: #dedede; }
+    60%{    color: #cfcfcf; }
+    80%{    color: #c7c7c7; }
+    100%{   color: #bfbfbf;    }
+}
+.blink2{
+    animation:blinkingText2 1.2s infinite;
+}
+@keyframes blinkingText2{
+    0%{    color: #ebebeb; }
+    20%{    color: #dedede; }
+    40%{    color: #cfcfcf; }
+    60%{    color: #c7c7c7; }
+    80%{   color: #bfbfbf;    }
+    100%{     color: #FFFFFF;    }
+}
+.blink3{
+    animation:blinkingText3 1.2s infinite;
+}
+@keyframes blinkingText3{
+    80%{     color: #FFFFFF;    }
+    100%{    color: #ebebeb; }
+    0%{    color: #dedede; }
+    20%{    color: #cfcfcf; }
+    40%{    color: #c7c7c7; }
+    60%{   color: #bfbfbf;    }
+}
+.blink4{
+    animation:blinkingText4 1.2s infinite;
+}
+@keyframes blinkingText4{
+    60%{     color: #FFFFFF;    }
+    80%{    color: #ebebeb; }
+    100%{    color: #dedede; }
+    0%{    color: #cfcfcf; }
+    20%{    color: #c7c7c7; }
+    40%{   color: #bfbfbf;    }
+}
+.blink5{
+    animation:blinkingText5 1.2s infinite;
+}
+@keyframes blinkingText5{
+    40%{     color: #FFFFFF;    }
+    60%{    color: #ebebeb; }
+    80%{    color: #dedede; }
+    100%{    color: #cfcfcf; }
+    0%{    color: #c7c7c7; }
+    20%{   color: #bfbfbf;    }
+}
+</style>
+  <style>
+	* {margin:0;padding:0;}
+	.section input[id*="slide"] {display:none;}
+	.section .slidewrap {max-height:100%;max-width:100%;margin:0 auto;}
+	.section .slidelist {white-space:nowrap;font-size:0;overflow:hidden;position:relative;}
+	.section .slidelist > li {display:inline-block;vertical-align:middle;width:100%;transition:all .5s;}
+	.section .slidelist > li > a {display:block;position:relative;}
+	.section .slidelist > li > a img {width:100%;}
+	.section .slidelist label {position:absolute;z-index:10;top:50%;transform:translateY(-50%);padding:50px;cursor:pointer;}
+	.section .slidelist .textbox {position:absolute;z-index:1;top:10%;left:50%;transform:translate(-50%,-50%);line-height:1.6;text-align:center;}
+	.section .slidelist .textbox h1 {font-weight:lighter; font-size:36px;color:#fff;;transform:translateY(30px);transition:all .5s;}
+	.section .slidelist .textbox p {font-weight:lighter; font-size:32px;color:#fff;opacity:0;transform:translateY(500px);transition:all .5s;}
+	.section .slidelist .textbox br {border-bottom:1px dashed black; content: ""; display:block;}
+
+
+	/* input에 체크되면 슬라이드 효과 */
+	.section input[id="slide01"]:checked ~ .slidewrap .slidelist > li {transform:translateX(0%);}
+	.section input[id="slide02"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-100%);}
+	.section input[id="slide03"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-200%);}
+	.section input[id="slide04"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-300%);}
+	.section input[id="slide05"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-400%);}
+	.section input[id="slide06"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-500%);}
+
+	/* input에 체크되면 텍스트 효과 */
+	.section input[id="slide01"]:checked ~ .slidewrap li:nth-child(1) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	.section input[id="slide01"]:checked ~ .slidewrap li:nth-child(1) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+	.section input[id="slide02"]:checked ~ .slidewrap li:nth-child(2) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	.section input[id="slide02"]:checked ~ .slidewrap li:nth-child(2) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+	.section input[id="slide03"]:checked ~ .slidewrap li:nth-child(3) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	.section input[id="slide03"]:checked ~ .slidewrap li:nth-child(3) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+	.section input[id="slide04"]:checked ~ .slidewrap li:nth-child(4) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	.section input[id="slide04"]:checked ~ .slidewrap li:nth-child(4) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+	.section input[id="slide05"]:checked ~ .slidewrap li:nth-child(5) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	.section input[id="slide05"]:checked ~ .slidewrap li:nth-child(5) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+	.section input[id="slide06"]:checked ~ .slidewrap li:nth-child(6) .textbox h3 {opacity:1;transform:translateY(0);transition-delay:.2s;}
+	.section input[id="slide06"]:checked ~ .slidewrap li:nth-child(6) .textbox p {opacity:1;transform:translateY(0);transition-delay:.4s;}
+
+	/* 좌,우 슬라이드 버튼 */
+	.slide-control > div {display:none;}
+	.section .left {left:30px;background:url("/static/left.png") center center / 100% no-repeat;}
+	.section .right {right:30px;background:url("/static/right.png") center center / 100% no-repeat;}
+	.section input[id="slide01"]:checked ~ .slidewrap .slide-control > div:nth-child(1) {display:block;}
+	.section input[id="slide02"]:checked ~ .slidewrap .slide-control > div:nth-child(2) {display:block;}
+	.section input[id="slide03"]:checked ~ .slidewrap .slide-control > div:nth-child(3) {display:block;}
+	.section input[id="slide04"]:checked ~ .slidewrap .slide-control > div:nth-child(4) {display:block;}
+	.section input[id="slide05"]:checked ~ .slidewrap .slide-control > div:nth-child(5) {display:block;}
+	.section input[id="slide06"]:checked ~ .slidewrap .slide-control > div:nth-child(6) {display:block;}
+
+	/* 페이징 */
+	.slide-pagelist {text-align:center;padding:20px;}
+	.slide-pagelist > li {display:inline-block;vertical-align:middle;}
+	.slide-pagelist > li > label {display:block;padding:8px 30px;border-radius:30px;background:#ccc;margin:20px 10px;cursor:pointer;}
+	.section input[id="slide01"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(1) > label {background:#999;}
+	.section input[id="slide02"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(2) > label {background:#999;}
+	.section input[id="slide03"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(3) > label {background:#999;}
+	.section input[id="slide04"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(4) > label {background:#999;}
+	.section input[id="slide05"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(5) > label {background:#999;}
+	.section input[id="slide06"]:checked ~ .slidewrap .slide-pagelist > li:nth-child(6) > label {background:#999;}
+  </style>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7SBVTV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+  <div id="app" class="container ko">
+    <section class="section intro">
+      <div class="intro__bg" style="height:100%;">
+        <div data-v-3d1a4f76="" class="slick-slider slick-initialized">
+          <div data-v-3d1a4f76="" class="slick-list">
+            <div data-v-e4caeaf8="" data-v-3d1a4f76="" class="slick-track" style="width:100%; opacity: 1;">
+              <div data-v-e4caeaf8="" tabindex="-1" data-index="0" aria-hidden="false" class="slick-slide slick-active slick-current" style="outline: none; width: 100%; position: relative; left: 0px; opacity: 1; transition: opacity 500ms ease 0s, visibility 500ms ease 0s;">
+                <div data-v-e4caeaf8="">
+                  <div data-v-e4caeaf8="" data-key="0" data-is-movie="true" tabindex="-1" class="intro__video-con" style="width: 100%; display: inline-block;">
+                    <video autoplay="" loop="" src="https://vod-cdn.universe-official.io/universe/headline_star_960x540_2_1.mp4" muted="muted" playsinline=""></video>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section__contents intro__contents">
+        <div class="intro__logo">
+          <div>
+            <img class="icon" src="https://wstatic-cdn.universe-official.io/common/universe.ico" style="width:100%">
+          </div>
+        </div>
+        <h2 style="width:100%">
+          <span class="blink1" style="position: absolute; top: 45%; left:42%; font-size:120%">U</span>
+          <span class="blink2" style="position: absolute; top: 45%; left:44%; font-size:120%">N</span>
+          <span class="blink3" style="position: absolute; top: 45%; left:46.5%; font-size:120%">I</span>
+          <span class="blink4" style="position: absolute; top: 45%; left:48.2%; font-size:120%">V</span>
+          <span class="blink5" style="position: absolute; top: 45%; left:50.5%; font-size:120%">E</span>
+          <span class="blink1" style="position: absolute; top: 45%; left:52.5%; font-size:120%">R</span>
+          <span class="blink2" style="position: absolute; top: 45%; left:55%; font-size:120%">S</span>
+          <span class="blink3" style="position: absolute; top: 45%; left:57%; font-size:120%">E</span>
+        </h2>
+        <h2 style="visibility:hidden">
+          aaa
+        </h2>
+        <h2 style="visibility:hidden">
+          aaa
+        </h2>
+        <div class="intro__desc">
+          <span style="color:#b5b5b5;" >For Fans, With Artists</span><br><strong><span>UNIVERSE</span>에서 오늘도 만나!<strong></strong></strong>
+        </div>
+      </div>
+      <div class="intro__btn-con" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+        <a href="https://play.google.com/store/apps/details?id=com.ncsoft.universeapp" target="_blnak" class="intro__btn intro__btn--google">googleplay</a>
+        <a href="https://apps.apple.com/kr/app/id1515427473" target="_blnak" class="intro__btn intro__btn--app">appstore</a>
+      </div>
+      <div class="intro__skip-btn" style="visibility: inherit; opacity: 0.4; transform: matrix(1, 0, 0, 1, 0, 0);">skip</div>
+    </section>
+    <div class="section">
+	<input type="radio" name="slide" id="slide01" checked>
+	<input type="radio" name="slide" id="slide02">
+	<input type="radio" name="slide" id="slide03">
+	<input type="radio" name="slide" id="slide04">
+	<input type="radio" name="slide" id="slide05">
+	<input type="radio" name="slide" id="slide06">
+	<div class="slidewrap">
+		<ul class="slidelist">
+			<!-- 슬라이드 영역 -->
+			<li class="slideitem">
+				<a>
+					<div class="textbox">
+						<h1>ADVENTURE</h1>
+						<h1 style="visibility:hidden">ADVENTURE</h1>
+						<P>COLLECTION</P>
+					</div>
+<!--					<video autoplay="" loop="" src="https://vod-cdn.universe-official.io/universe/headline_star_960x540_2_1.mp4" muted="muted" playsinline=""></video>-->
+                    <img src="{%static 'slide.jpg' %}">
+				</a>
+			</li>
+			<li class="slideitem">
+				<a >
+					<div class="textbox">
+						<h1>ADVENTURE</h1>
+						<h1 style="visibility:hidden">ADVENTURE</h1>
+						<P>COLLECTION</P>
+					</div>
+					<img src="{%static 'slide.jpg' %}">
+				</a>
+			</li>
+			<li class="slideitem">
+				<a>
+
+					<div class="textbox">
+						<h1>ADVENTURE</h1>
+						<h1 style="visibility:hidden">ADVENTURE</h1>
+						<P>COLLECTION</P>
+					</div>
+					<img src="{%static 'slide.jpg' %}">
+				</a>
+			</li>
+            <li class="slideitem">
+				<a>
+
+					<div class="textbox">
+						<h1>ADVENTURE</h1>
+						<h1 style="visibility:hidden">ADVENTURE</h1>
+						<P>COLLECTION</P>
+					</div>
+					<img src="{%static 'slide.jpg' %}">
+				</a>
+            </li>
+            <li class="slideitem">
+				<a>
+
+					<div class="textbox">
+						<h1>ADVENTURE</h1>
+						<h1 style="visibility:hidden">ADVENTURE</h1>
+						<P>COLLECTION</P>
+					</div>
+					<img src="{%static 'slide.jpg' %}">
+				</a>
+			</li>
+            <li class="slideitem">
+				<a>
+
+					<div class="textbox">
+						<h1>ADVENTURE</h1>
+						<h1 style="visibility:hidden">ADVENTURE</h1>
+						<P>COLLECTION</P>
+					</div>
+					<img src="{%static 'slide.jpg' %}">
+				</a>
+			</li>
+
+			<!-- 좌,우 슬라이드 버튼 -->
+			<div class="slide-control">
+				<div>
+					<label for="slide06" class="left"></label>
+					<label for="slide02" class="right"></label>
+				</div>
+				<div>
+					<label for="slide01" class="left"></label>
+					<label for="slide03" class="right"></label>
+				</div>
+				<div>
+					<label for="slide02" class="left"></label>
+					<label for="slide04" class="right"></label>
+				</div>
+                <div>
+					<label for="slide03" class="left"></label>
+					<label for="slide05" class="right"></label>
+				</div>
+                <div>
+					<label for="slide04" class="left"></label>
+					<label for="slide06" class="right"></label>
+				</div>
+                <div>
+					<label for="slide05" class="left"></label>
+					<label for="slide01" class="right"></label>
+				</div>
+			</div>
+
+		</ul>
+		<!-- 페이징 -->
+		<ul class="slide-pagelist" style="visibility:hidden; display:none;" >
+			<li><label for="slide01"></label></li>
+			<li><label for="slide02"></label></li>
+			<li><label for="slide03"></label></li>
+			<li><label for="slide04"></label></li>
+			<li><label for="slide05"></label></li>
+			<li><label for="slide06"></label></li>
+		</ul>
+	</div>
+  </div>
+  </div>
+  <script src="https://wstatic-cdn.plaync.com/common/js/uikit/share2/dist/share.2.1.0.js?_=202012301041"></script>
+  <script src="https://wstatic-cdn.universe-official.io/universe/v1/js/chunk-vendors.js?_=2108181600"></script>
+
+
+</body>
+</html>
